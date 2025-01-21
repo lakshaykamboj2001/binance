@@ -1,0 +1,653 @@
+.bUTIncriment span {
+    font-size: 84px;
+    color: #F0B90B;
+    font-weight: 900;
+}
+
+.bUTIncriment h2 {
+    color: #eaecef;
+    font-size: 84px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.binanceUserTrust {
+    width: 600px;
+}
+
+
+.bUTInputmail input {
+    border: 1px solid #474d57;
+    border-radius: 10px;
+    max-width: 308px;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    color: white;
+    padding: 0 12px;
+    background-color: unset;
+}
+
+.bUTInputmail button {
+    max-width: 180px;
+    width: 100%;
+    height: 48px;
+    background-color: #FCD535;
+    border: none;
+    border-radius: 10px;
+    color: #202630;
+}
+
+.bUTInputmail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+
+
+.binanceUserTrustGooglebtn button {
+    border: 1px solid #2b3139;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    padding: 11px;
+    background-color: unset;
+    display: flex;
+    transition: 0.2s;
+}
+
+.binanceUserTrustGooglebtn button:hover {
+    background-color: #252A32;
+}
+
+.binanceUserTrustDldApp button {
+    border: 1px solid #2b3139;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    background-color: unset;
+    transition: 0.2s;
+}
+
+.binanceUserTrustDldApp button:hover {
+    background-color: #252A32;
+}
+
+.binanceUserTrustGoogle p,
+.binanceUserTrustDldApp p {
+    font-size: 14px;
+    color: #848E9C;
+}
+
+.binanceUserTrustGoogleApp {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding-top: 178px;
+}
+
+
+.binanceUserCryptoPopulartxt h6 {
+    color: #EAECEF;
+    font-size: 16px;
+    margin: 0;
+}
+
+.binanceUser {
+    display: flex;
+    gap: 48px;
+    /* justify-content: space-between; */
+    padding: 48px 0;
+}
+
+.binanceUserCryptoPopulartxt p {
+    color: #848E9C;
+    font-size: 14px;
+    margin: 0;
+}
+
+.binanceUserCryptoPopularLINK a {
+    color: #EAECEF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.binanceUserCryptoPopularLINK {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.binanceUserCryptoPopulartxt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.binanceUserCryptoPopular {
+    background-color: #1e2329;
+    padding: 20px 24px;
+    border-radius: 20px;
+}
+
+.binanceUserTrustGooglebtn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.binanceTradeScanTabList ul li {
+    color: #848E9C;
+    font-size: 16px;
+    padding: 20px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.binanceTradeScanTabList ul li.active::after {
+    position: absolute;
+    content: '';
+    background-color: #f0b90b;
+    height: 2px;
+    left: 0;
+    right: 0;
+    transform: none;
+    width: auto;
+    bottom: 0;
+}
+
+.binanceTradeScanTabList ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #2b3139;
+    padding: 0;
+    width: 100%;
+    max-width: 204px;
+    margin: 0 auto;
+}
+
+.binanceTradeScan {
+    padding: 80px 24px;
+}
+
+.binanceTradeScanTab {
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+}
+
+.binanceTradeScan {
+    display: flex;
+    gap: 80px;
+}
+
+.binanceTradeScanRighttxt h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #EAECEF;
+}
+
+.binanceTradeScanRightscanerimg {
+    width: max-content;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.binanceTradeScanRightscanerimgbg {
+    width: max-content;
+    border: 1px solid #2b3139;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+.binanceTradeScanRightscanertext h6 {
+    color: #848E9C;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.binanceTradeScanRightscanertext p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #EAECEF;
+}
+
+.binanceTradeScanRightscaner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 91px;
+}
+
+.bTScanRightlogos svg {
+    width: 40px;
+    height: 40px;
+}
+
+.bTScanRightlogos {
+    color: #EAECEF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 102px;
+    height: 88px;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.bTScanRightlogos:hover {
+    background-color: #252A32;
+}
+
+.binanceTradeScanRightlogos {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 40px 0;
+}
+
+.binanceTradeScanRightDownloadbtn button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.binanceTradeScanRightDownloadbtn button {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #EAECEF;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.binanceEarningBg h2 {
+    color: #EAECEF;
+    font-size: 40px;
+    font-weight: 900px;
+    margin-bottom: 40px;
+}
+
+.binanceEarningBg {
+    text-align: center;
+}
+
+.binanceEarningBg button {
+    max-width: 164px;
+    width: 100%;
+    height: 48px;
+    background-color: #FCD535;
+    border: none;
+    border-radius: 10px;
+    color: #202630;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.binanceEarningBgclr {
+    background-color: #1e2329;
+    padding: 64px 0;
+}
+
+.footerIcongroup img {
+    width: 24px;
+}
+
+.FooterCommunity h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EAECEF;
+}
+
+.footerNavlistSub h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EAECEF;
+    margin-bottom: 16px;
+}
+
+.footerNavlistSub ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #EAECEF;
+    transition: 0.2s;
+}
+
+.footerNavlistSub ul li a:hover {
+    color: #f0b90b;
+}
+
+.footerNavlistSub ul li {
+    margin-bottom: 5px;
+}
+
+.footerNavlistSub ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.FooterContent {
+    display: flex;
+    gap: 24px;
+}
+
+.FooterContentPading {
+    padding: 64px 24px;
+
+}
+
+.footerNavlistflx {
+    display: flex;
+    gap: 24px;
+}
+
+.FooterCommunity {
+    max-width: 235px;
+    width: 100%;
+}
+
+.footerIcongroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 170px;
+}
+
+.footerNavlist {
+    width: 100%;
+}
+
+.footerNavlistSub {
+    max-width: 217px;
+    width: 100%;
+}
+
+.footerNavlistSubmargin {
+    margin-top: 35px;
+}
+
+
+.footerCopyrightText p {
+    color: #B7BDC6;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footerCopyrightText a {
+    color: #B7BDC6;
+    font-size: 14px;
+    text-decoration: none;
+    transform: 0.2s;
+}
+.footerCopyrightText a:hover {
+color: #FCD535;
+}
+
+.footerCopyrightText {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding-top: 16px;
+    border-top: 1px solid #2b3139;
+}
+
+.AccordionComponentBg{
+    padding: 80px 0;
+}
+
+.AccordionComponentBg h3{
+    font-size: 40px ;
+    font-weight: 600 ;
+    line-height: 48px ;
+    font-size: 40px;
+    color: #EAECEF;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.HeaderLogo img{
+    width: 120px;
+    height: 64px;
+}
+
+.HeaderList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.HeaderList ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #EAECEF;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.HeaderList ul li a:hover{
+color: #FCD535;
+}
+.HeaderBg{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.binanceCryptoViewTab{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.binanceCryptoViewTab h6{
+    cursor: pointer;
+    margin: 0;
+}
+
+.bCryptoViewTablists img{
+    width: 28px;
+    height: 28px;
+}
+
+.bCryptoViewTablists h5{
+    font-size: 16px;
+    color: #EAECEF;
+    font-weight: 500;
+    margin: 0px 4px 0px 8px;
+}
+
+.bCryptoViewTablists span{
+    font-size: 14px;
+    color: #848e9c;
+    font-weight: 400;
+}
+
+.bCryptoViewTablists{
+    display: flex;
+    align-items: center;
+}
+
+.bCryptoViewTablistsno p{
+    font-size: 16px;
+    color: #EAECEF;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bCryptoViewTablistsnoPercent span{
+color: #0ecb81;
+font-size: 14px;
+font-weight: 500;
+}
+
+.binanceCryptoViewTablists{
+display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.binanceUserCrypto{
+    max-width: 480px;
+}
+
+.binanceUserCryptoPopularBitCoin{
+    gap: 20px;
+}
+
+.binanceUserCryptoPopularMargin{
+    margin-bottom: 16px;
+}
+
+.bCryptoViewTablistsnoPercentChangeclr span{
+    color: #F6465D;
+}
+
+
+
+@media (max-width:992px){
+    .bUTIncriment span {
+        font-size: 54px;
+    }
+    .bUTIncriment h2 {
+        font-size: 54px;
+    }
+    .bUTInputmail button {
+        max-width: 120px;
+    }
+    .binanceUserTrustGoogleApp {
+        padding-top: 30px;
+    }
+    .binanceUser{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .binanceUserCrypto {
+        max-width: 100%;
+    }
+    .binanceTradeScan {
+        padding: 10px 0px;
+        gap: 20px;
+    }
+    .binanceTradeScanRightscaner {
+        padding-top: 47px;
+    }
+    .binanceTradeScanRighttxt h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .AccordionComponentBg {
+        padding: 40px 0;
+    }
+    .AccordionComponentBg h3 {
+        margin-bottom: 20px;
+    }
+    .binanceEarningBgclr {
+        padding: 30px 0;
+    }
+    .binanceEarningBg h2 {
+        margin-bottom: 20px;
+    }
+    .FooterContentPading {
+        padding: 35px 0px;
+    }
+}
+
+
+@media (max-width:767px){
+.binanceTradeScan {
+    flex-direction: column;
+}
+.bUTInputmail {
+    align-items: start;
+    flex-direction: column;
+}
+.footerNavlistSub {
+    max-width: 157px;
+    width: 100%;
+    /* text-align: center; */
+}
+.FooterContent{
+    flex-direction: column;
+}
+.footerNavlistflx {
+    flex-wrap: wrap;
+}
+.binanceUserTrust{
+    width: 100%;
+}
+.bUTIncriment span {
+    font-size: 32px;
+}
+.bUTIncriment h2 {
+    font-size: 32px;
+}
+.binanceUserTrustGoogleApp {
+    padding-top: 20px;
+}
+.binanceUser {
+    gap: 28px;
+}
+.binanceTradeScanRightscaner {
+    padding-top: 15px;
+}
+.binanceTradeScanRightlogos {
+    padding: 20px 0;
+}
+.AccordionComponentBg {
+    padding: 20px 0;
+}
+.AccordionComponentBg h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.binanceEarningBg h2 {
+    font-size: 32px;
+}
+.FooterCommunity {
+    max-width: 100%;
+    width: 100%;
+}
+.HeaderBg{
+    gap: 0;
+    flex-direction: column;
+}
+
+.HeaderList ul {
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+}

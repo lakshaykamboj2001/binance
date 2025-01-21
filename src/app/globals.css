@@ -1,0 +1,94 @@
+
+/* @import url(https://db.onlinewebfonts.com/c/d05c19ccecf7003d248c60ffd6b5e8f7?family=Binance+PLEX); */
+
+@font-face {
+  font-family: "Binance PLEX";
+  src: url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.eot");
+  src: url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/d05c19ccecf7003d248c60ffd6b5e8f7.svg#Binance PLEX")format("svg");
+}
+
+body{
+  background-color: #181a20 !important;
+  font-family: "Binance PLEX" !important;
+}
+
+
+@media (min-width: 1400px){
+.container {
+  max-width: 1200px !important;
+}
+}
+
+
+
+.AccordionComponent .accordion-button {
+background-color: #181a20;
+color: #EAECEF;
+font-size: 20px;
+font-weight: 500 ;
+}
+
+.AccordionComponent .accordion-button span{
+  font-size: 16px;
+  border: 1px solid #2b3139;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.AccordionComponent .accordion-item:first-of-type>.accordion-header .accordion-button {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+}
+
+.AccordionComponent .accordion-item{
+  border: none;
+background-color: #181a20;
+outline: none;
+}
+.AccordionComponent .accordion-button{
+background-color: #181a20;
+
+}
+
+
+.AccordionComponent .accordion-button:focus {
+  box-shadow: none;
+
+}
+
+.AccordionComponent .accordion-button:not(.collapsed) {
+  color: #EAECEF;
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.AccordionComponent .accordion-body{
+  color: #EAECEF;
+  padding-left: 62px;
+  padding-top: 0;
+}
+
+.AccordionComponent .accordion-body a{
+  color: #FCD535;
+  text-decoration: none;
+
+}
+
+@media (max-width:767px){
+.AccordionComponent .accordion-button {
+  background-color: #181a20;
+  color: #EAECEF;
+  font-size: 16px;
+  font-weight: 500;
+}
+}
